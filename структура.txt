@@ -1,0 +1,37 @@
+lobby-staff-portfolio/
+├── backend/
+│   ├── app.py              # Flask сервер
+│   ├── models.py           # SQLAlchemy модели
+│   ├── routes.py           # API эндпоинты
+│   ├── requirements.txt    # Python зависимости
+│   └── config.py           # Конфигурация БД
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── App.js          # Главный компонент
+│   │   ├── index.js        # Точка входа React
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Hero.jsx
+│   │   │   ├── Portfolio.jsx
+│   │   │   ├── About.jsx
+│   │   │   ├── Services.jsx
+│   │   │   ├── Team.jsx
+│   │   │   ├── Testimonials.jsx
+│   │   │   ├── Contact.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Particles.jsx
+│   │   │   ├── CursorGlow.jsx
+│   │   │   └── Preloader.jsx
+│   │   ├── styles/
+│   │   │   ├── App.css
+│   │   │   └── animations.css
+│   │   └── assets/
+│   │       └── images/
+│   ├── package.json
+│   └── README.md
+├── database/
+│   ├── schema.sql           # Структура БД
+│   └── seed.sql             # Тестовые данные
+└── README.md
